@@ -4,9 +4,9 @@ function multiplicacionnumeros() {
     let num2 = 20;
     let multiplicacion = 0;
 
-    multiplicacion = num1 * num2
+    multiplicacion = num1 * num2;
 
-    document.write(num1 * num2) 
+    document.write(num1 * num2); 
 
     alert("la multiplicacion de los numeros es:" + multiplicacion);
 
