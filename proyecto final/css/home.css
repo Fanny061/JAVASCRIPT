@@ -18,7 +18,19 @@ hr{
 
 h1{
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150px;
+}
+
+#sub{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+}
+
+#tem{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
     font-size: 150px;
 }
 
@@ -114,16 +126,15 @@ div > #texto{
 }
 
 #Nombres{
-    margin-left: 3%;
-    width: 40%;
+    columns: 6;
 }
 
 #correo2{
-    width: 40%;
+    columns: 12;
 }
 
 #comentarios{
-    height: 50px;
+    columns: 12;
 }
 
 #contacto{
@@ -132,8 +143,8 @@ div > #texto{
 
 #Submit2{
     width: 60%;
-    margin-top: 8%;
-    margin-left: 25%;
+    margin-top: 10%;
+    margin-left: 65%;
 }
 
 #blog1{
@@ -156,4 +167,12 @@ div > #texto{
 
 #texto2{
     margin-top: 10%;
+}
+
+#img{
+    margin-left: 40%;
+}
+
+#create{
+    margin-left: 5%;
 }
